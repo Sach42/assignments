@@ -10,7 +10,7 @@ public class Restaurant {
     private String phoneNumber;
     private String specialty;
     private Long totalStaff;
-    private Integer Rating;
+
 
     }
 
