@@ -8,19 +8,16 @@ GEEKSTER GIT ASSIGNMENTS
 
 ## Running Tests
 
-To run tests, run the following command
-
-git log
-
+To run tests, you need java,maven.
 
 ## Usage
-GIT Run 
+open and run the folders in your favourite ide
 
 
 
 
 ## 🛠 Skills Learned
-GIT ,GITHUB
+GIT ,GITHUB,Java,Springboot,mysql .
 
 
 ## Authors
@@ -31,10 +28,11 @@ GIT ,GITHUB
 ## Acknowledgements
 
 - [Markdown crash course](https://youtu.be/HUBNt18RFbo)
+- [Geekster](https://www.geekster.in/).
 
 ## Feedback
 
-If you have any feedback, please reach out to mr at Omkar66527@gmail.com.
+If you have any feedback, please reach out to me at Omkar66527@gmail.com.
 
 
 ## License
@@ -47,8 +45,8 @@ Not currently licensed
 
 #### What does this repository help with?
 
-This will help with learning the basics of Git.
+This will help with learning the basics of Git,Java,springboot,sql,h2 .
 
 #### What New updates to excpect?
-some git /git hub /spring docs
+Springboot projects working.
 
