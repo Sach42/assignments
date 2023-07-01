@@ -14,6 +14,8 @@ import lombok.NoArgsConstructor;
 
 import java.time.LocalDate;
 import java.time.LocalTime;
+import java.util.Optional;
+
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
@@ -36,9 +38,9 @@ public class User {
     private String email;
 
     @NotNull
-   // @Pattern(regexp = "\\d{2}-\\d{10}", message = "Phone number should be in the format XX-XXXXXXXXXX ")
+    @Pattern(regexp = "\\d{2}-\\d{10}", message = "Phone number should be in the format XX-XXXXXXXXXX ")
     private String phoneNumber;
-
+  Optional
 
 
 }
