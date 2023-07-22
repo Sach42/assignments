@@ -39,7 +39,7 @@ ToDoApp is a web-based application designed to manage todo tasks. It allows user
 
 To run the ToDoApp locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/todo-app.git`
+1. Clone the repository: `git clone https://github.com/Omkar6627/assignments/tree/main%2B%2B/ToDo`
 2. Navigate to the project directory: `cd todo-app`
 3. (Optional) If you are using an IDE, import the project as a Maven project.
 4. Build the application: `mvn clean install`
