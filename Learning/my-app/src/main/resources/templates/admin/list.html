@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+        layout:decorate="~{layout}">
+    <head>
+        <title th:text="#{admin.list.headline}" />
+    </head>
+    <body>
+        <div layout:fragment="content">
+            <div class="flex flex-wrap mb-6">
+                <h1 th:text="#{admin.list.headline}" class="grow text-3xl md:text-4xl font-medium mb-2" />
+                <div>
+                    <a th:href="@{/admins/add}" th:text="#{admin.list.createNew}" class="inline-block text-white bg-blue-600 hover:bg-blue-700 focus:ring-blue-300  focus:ring-4 rounded px-5 py-2" />
+                </div>
+            </div>
+            <div th:if="${admins.empty}" th:text="#{admin.list.empty}" />
+            <div th:if="${!admins.empty}" class="overflow-x-auto">
+                <table class="w-full">
+                    <thead>
+                        <tr>
+                            <th th:text="#{admin.adminId.label}" scope="col" class="text-left p-2" />
+                            <th th:text="#{admin.adminName.label}" scope="col" class="text-left p-2" />
+                            <th th:text="#{admin.adminEmail.label}" scope="col" class="text-left p-2" />
+                            <th th:text="#{admin.adminPassword.label}" scope="col" class="text-left p-2" />
+                            <th><!-- --></th>
+                        </tr>
+                    </thead>
+                    <tbody class="border-t-2 border-black">
+                        <tr th:each="admin : ${admins}" class="odd:bg-gray-100">
+                            <td th:text="${admin.adminId}" class="p-2" />
+                            <td th:text="${admin.adminName}" class="p-2" />
+                            <td th:text="${admin.adminEmail}" class="p-2" />
+                            <td th:text="${admin.adminPassword}" class="p-2" />
+                            <td class="p-2">
+                                <div class="float-right whitespace-nowrap">
+                                    <a th:href="@{/admins/edit/{adminId}(adminId=${admin.adminId})}" th:text="#{admin.list.edit}" class="inline-block text-white bg-sky-500 hover:bg-sky-600 focus:ring-sky-200focus:ring-3 rounded px-2.5 py-1.5 text-sm" />
+                                    <form th:action="@{/admins/delete/{adminId}(adminId=${admin.adminId})}"
+                                            th:hx-confirm="#{delete.confirm}" method="post" class="inline">
+                                        <button th:text="#{admin.list.delete}" type="submit" class="inline-block text-white bg-red-500 hover:bg-red-600 focus:ring-red-200focus:ring-3 rounded px-2.5 py-1.5 text-sm" />
+                                    </form>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>
