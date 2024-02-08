@@ -1,0 +1,497 @@
+repo_name: Sach42/assignments
+report_id: e3626b5c37ca16f7f99868699e24b1df
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-08T19:01:43+00:00'
+requested_by: Omkar6627
+provider: github
+branch: main++
+detected_tools_count: 38
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/Sach42/assignments
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/Sach42/assignments
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/Sach42/assignments
+  detection_source: Repo Metadata
+- name: Autoprefixer
+  description: PostCSS plugin to parse CSS and add vendor prefixes to CSS rules
+  website_url: https://github.com/postcss/autoprefixer
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
+  detection_source_url: https://github.com/Sach42/assignments/blob/main++/Learning/my-app/package.json
+  detection_source: Learning/my-app/package.json
+  last_updated_by: omkar
+  last_updated_on: 2023-08-15 04:04:19.000000000 Z
+- name: Spring Framework
+  description: An application framework and inversion of control container for the
+    Java platform
+  website_url: https://spring.io/projects/spring-framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/2006/spring-framework-project-logo.png
+  detection_source_url: https://github.com/Sach42/assignments/blob/main++/DoctorApp/doctor-app/pom.xml
+  detection_source: DoctorApp/doctor-app/pom.xml
+  last_updated_by: omkar
+  last_updated_on: 2023-07-23 05:36:53.000000000 Z
+- name: Tailwind CSS
+  description: A utility-first CSS framework for rapid UI development
+  website_url: https://tailwindcss.com
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/8158/default_660b7c41c3ba489cb581eec89c04655404258c19.png
+  detection_source_url: https://github.com/Sach42/assignments/blob/main++/Learning/my-app/package.json
+  detection_source: Learning/my-app/package.json
+  last_updated_by: omkar
+  last_updated_on: 2023-08-15 04:04:19.000000000 Z
+- name: css-loader
+  description: Helps webpack to collect CSS from all the css files
+  website_url: https://github.com/webpack-contrib/css-loader
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/8074/default_d2b16fd6997fb2e164de645a34f9b8d5a880d999.png
+  detection_source_url: https://github.com/Sach42/assignments/blob/main++/Learning/my-app/package.json
+  detection_source: Learning/my-app/package.json
+  last_updated_by: omkar
+  last_updated_on: 2023-08-15 04:04:19.000000000 Z
+- name: H2 Database
+  description: A relational database management system written in Java
+  website_url: http://www.h2database.com/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/3105/h2-logo_square_400x400.png
+  detection_source_url: https://github.com/Sach42/assignments/blob/main++/Event management/Event-manager/pom.xml
+  detection_source: Event management/Event-manager/pom.xml
+  last_updated_by: omkar
+  last_updated_on: 2023-07-01 13:50:23.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 7.22.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/Sach42/assignments/blob/main++/Learning/my-app/package.json
+  detection_source: Learning/my-app/package.json
+  last_updated_by: omkar
+  last_updated_on: 2023-08-15 04:04:19.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/Sach42/assignments/blob/main++/Learning/my-app/package.json
+  detection_source: Learning/my-app/package.json
+  last_updated_by: omkar
+  last_updated_on: 2023-08-15 04:04:19.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Sach42/assignments
+  detection_source: Repo Metadata
+- name: Webpack
+  description: A bundler for javascript and friends
+  website_url: http://webpack.js.org
+  version: 5.88.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
+  detection_source_url: https://github.com/Sach42/assignments/blob/main++/Learning/my-app/package.json
+  detection_source: Learning/my-app/package.json
+  last_updated_by: omkar
+  last_updated_on: 2023-08-15 04:04:19.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/Sach42/assignments/blob/main++/Learning/my-app/package.json
+  detection_source: Learning/my-app/package.json
+  last_updated_by: omkar
+  last_updated_on: 2023-08-15 04:04:19.000000000 Z
+- name: Apache Camel
+  description: A versatile open source integration framework
+  website_url: https://camel.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/3276/xWt1RFo6_400x400.jpg
+  detection_source_url: https://github.com/Sach42/assignments/blob/main++/DoctorApp/doctor-app/src/main/resources/application.properties
+  detection_source: DoctorApp/doctor-app/src/main/resources/application.properties
+  last_updated_by: omkar
+  last_updated_on: 2023-07-23 05:36:53.000000000 Z
+- name: com.h2database:h2
+  description: H2 Database Engine
+  license: MIT-feh
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Sach42/assignments/blob/main++/Event management/Event-manager/pom.xml
+  detection_source: Event management/Event-manager/pom.xml
+  last_updated_by: omkar
+  last_updated_on: 2023-07-01 13:50:23.000000000 Z
+- name: com.sun.mail:javax.mail
+  description: "${project.name}"
+  version: 1.6.2
+  license: CNRI-Python-GPL-Compatible
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Sach42/assignments/blob/main++/DoctorApp/doctor-app/pom.xml
+  detection_source: DoctorApp/doctor-app/pom.xml
+  last_updated_by: omkar
+  last_updated_on: 2023-07-23 05:36:53.000000000 Z
+- name: nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect
+  description: A dialect for Thymeleaf that allows you to use layout/decorator templates
+    to style your content
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Sach42/assignments/blob/main++/Learning/my-app/pom.xml
+  detection_source: Learning/my-app/pom.xml
+  last_updated_by: omkar
+  last_updated_on: 2023-08-15 04:04:19.000000000 Z
+- name: org.json:json
+  description: JSON is a light-weight, language independent, data interchange format
+  license: JSON
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Sach42/assignments/blob/main++/chucknorris/pom.xml
+  detection_source: chucknorris/pom.xml
+  last_updated_by: omkar
+  last_updated_on: 2023-06-15 08:52:16.000000000 Z
+- name: org.projectlombok:lombok
+  description: 'Spice up your java: Automatic Resource Management'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Sach42/assignments/blob/main++/DoctorApp/doctor-app/pom.xml
+  detection_source: DoctorApp/doctor-app/pom.xml
+  last_updated_by: omkar
+  last_updated_on: 2023-07-23 05:36:53.000000000 Z
+- name: org.springframework.boot:spring-boot-devtools
+  description: Spring Boot Developer Tools
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Sach42/assignments/blob/main++/DoctorApp/doctor-app/pom.xml
+  detection_source: DoctorApp/doctor-app/pom.xml
+  last_updated_by: omkar
+  last_updated_on: 2023-07-23 05:36:53.000000000 Z
+- name: org.springframework.boot:spring-boot-starter
+  description: Core starter
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Sach42/assignments/blob/main++/Studentmanagement/student-management/pom.xml
+  detection_source: Studentmanagement/student-management/pom.xml
+  last_updated_by: omkar
+  last_updated_on: 2023-07-09 07:01:03.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-data-jpa
+  description: Starter for using Spring Data JPA with Hibernate
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Sach42/assignments/blob/main++/DoctorApp/doctor-app/pom.xml
+  detection_source: DoctorApp/doctor-app/pom.xml
+  last_updated_by: omkar
+  last_updated_on: 2023-07-23 05:36:53.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-security
+  description: Starter for using Spring Security
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Sach42/assignments/blob/main++/Learning/my-app/pom.xml
+  detection_source: Learning/my-app/pom.xml
+  last_updated_by: omkar
+  last_updated_on: 2023-08-15 04:04:19.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-test
+  description: Starter for testing Spring Boot applications with libraries including
+    JUnit
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Sach42/assignments/blob/main++/DoctorApp/doctor-app/pom.xml
+  detection_source: DoctorApp/doctor-app/pom.xml
+  last_updated_by: omkar
+  last_updated_on: 2023-07-23 05:36:53.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-thymeleaf
+  description: Starter for building MVC web applications using Thymeleaf views
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Sach42/assignments/blob/main++/Learning/my-app/pom.xml
+  detection_source: Learning/my-app/pom.xml
+  last_updated_by: omkar
+  last_updated_on: 2023-08-15 04:04:19.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-validation
+  description: Starter for using Java Bean Validation with Hibernate Validator
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Sach42/assignments/blob/main++/DoctorApp/doctor-app/pom.xml
+  detection_source: DoctorApp/doctor-app/pom.xml
+  last_updated_by: omkar
+  last_updated_on: 2023-07-23 05:36:53.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-web
+  description: Starter for building web, including RESTful, applications using Spring
+    MVC
+  version: 3.1.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Sach42/assignments/blob/main++/chucknorris/pom.xml
+  detection_source: DoctorApp/doctor-app/pom.xml
+  last_updated_by: omkar
+  last_updated_on: 2023-07-23 05:36:53.000000000 Z
+- name: org.webjars:bootstrap
+  description: WebJar for Bootstrap
+  version: 5.3.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Sach42/assignments/blob/main++/Personal
+    projects/Reservation/pom.xml
+  detection_source: Personal projects/Reservation/pom.xml
+  last_updated_by: omkar
+  last_updated_on: 2023-07-22 06:34:52.000000000 Z
+- name: "@babel/core"
+  description: Babel compiler core
+  package_url: https://www.npmjs.com/@babel/core
+  version: 7.22.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15810/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/Sach42/assignments/blob/main++/Learning/my-app/package.json
+  detection_source: Learning/my-app/package.json
+  last_updated_by: omkar
+  last_updated_on: 2023-08-15 04:04:19.000000000 Z
+- name: "@babel/preset-env"
+  description: A Babel preset for each environment
+  package_url: https://www.npmjs.com/@babel/preset-env
+  version: 7.22.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15819/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/Sach42/assignments/blob/main++/Learning/my-app/package.json
+  detection_source: Learning/my-app/package.json
+  last_updated_by: omkar
+  last_updated_on: 2023-08-15 04:04:19.000000000 Z
+- name: babel-loader
+  description: Babel module loader for webpack
+  package_url: https://www.npmjs.com/babel-loader
+  version: 9.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15800/default_4acafe585186b4157fa23322ae7ca89e24b5cdef.png
+  detection_source_url: https://github.com/Sach42/assignments/blob/main++/Learning/my-app/package.json
+  detection_source: Learning/my-app/package.json
+  last_updated_by: omkar
+  last_updated_on: 2023-08-15 04:04:19.000000000 Z
+- name: mini-css-extract-plugin
+  description: Extracts CSS into separate files
+  package_url: https://www.npmjs.com/mini-css-extract-plugin
+  version: 2.7.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15992/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/Sach42/assignments/blob/main++/Learning/my-app/package.json
+  detection_source: Learning/my-app/package.json
+  last_updated_by: omkar
+  last_updated_on: 2023-08-15 04:04:19.000000000 Z
+- name: postcss-loader
+  description: PostCSS loader for webpack
+  package_url: https://www.npmjs.com/postcss-loader
+  version: 7.3.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15876/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/Sach42/assignments/blob/main++/Learning/my-app/package.json
+  detection_source: Learning/my-app/package.json
+  last_updated_by: omkar
+  last_updated_on: 2023-08-15 04:04:19.000000000 Z
+- name: postcss-preset-env
+  description: Convert modern CSS into something browsers understand
+  package_url: https://www.npmjs.com/postcss-preset-env
+  version: 9.1.1
+  license: CC0-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16373/default_92302d1bbf4c0f67b862869662b4f69002c94aad.png
+  detection_source_url: https://github.com/Sach42/assignments/blob/main++/Learning/my-app/package.json
+  detection_source: Learning/my-app/package.json
+  last_updated_by: omkar
+  last_updated_on: 2023-08-15 04:04:19.000000000 Z
+- name: style-loader
+  description: Style loader module for webpack
+  package_url: https://www.npmjs.com/style-loader
+  version: 3.3.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15822/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/Sach42/assignments/blob/main++/Learning/my-app/package.json
+  detection_source: Learning/my-app/package.json
+  last_updated_by: omkar
+  last_updated_on: 2023-08-15 04:04:19.000000000 Z
+- name: tailwindcss
+  description: A utility-first CSS framework for rapidly building custom user interfaces
+  package_url: https://www.npmjs.com/tailwindcss
+  version: 3.3.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17398/default_2cd7ed1c123f2fca074a6f4b16c4e73d5bfe82be.png
+  detection_source_url: https://github.com/Sach42/assignments/blob/main++/Learning/my-app/package.json
+  detection_source: Learning/my-app/package.json
+  last_updated_by: omkar
+  last_updated_on: 2023-08-15 04:04:19.000000000 Z
+- name: webpack-cli
+  description: CLI for webpack &amp; friends
+  package_url: https://www.npmjs.com/webpack-cli
+  version: 5.1.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15826/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/Sach42/assignments/blob/main++/Learning/my-app/package.json
+  detection_source: Learning/my-app/package.json
+  last_updated_by: omkar
+  last_updated_on: 2023-08-15 04:04:19.000000000 Z
+- name: webpack-dev-server
+  description: Serves a webpack app. Updates the browser on changes
+  package_url: https://www.npmjs.com/webpack-dev-server
+  version: 4.15.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15821/default_64690bc3e49bcee57094e51a7a26c620c48dbd82.png
+  detection_source_url: https://github.com/Sach42/assignments/blob/main++/Learning/my-app/package.json
+  detection_source: Learning/my-app/package.json
+  last_updated_by: omkar
+  last_updated_on: 2023-08-15 04:04:19.000000000 Z
